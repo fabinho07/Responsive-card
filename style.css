@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F6F9FF;
+    width: 100%;
+}
+
+#container {
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-here {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    gap: 20px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    background: white;
+    box-shadow: 20px 20px 50px -30px #AFD6FF;
+
+}
+
+.shop-here img {
+    width: 100px;
+    margin: auto;
+}
+
+.shop-here button {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background: crimson;
+    margin: auto;
+    background: linear-gradient(to right, #3E8AFF, #BBDEFF);
+    color: #fff;
+}
+
+.shop-here p {
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.shop-here h3 {
+    font-size: 18px;
+}
+
+/* contact */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    gap: 20px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    background: white;
+    box-shadow: 20px 20px 50px -30px #DBC4FF;
+
+}
+
+
+.contact img {
+    width: 90px;
+    margin: auto;
+}
+
+.contact button {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background: crimson;
+    margin: auto;
+    background: linear-gradient(to right, #9F66FF, #DFCBFF);
+    color: #fff;
+}
+
+.contact p {
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.contact h3 {
+    font-size: 18px;
+}
+
+
+/* about-us */
+
+.about-us {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 50px;
+        gap: 20px;
+        width: 200px;
+        height: 300px;
+        text-align: center;
+        background: white;
+        box-shadow: 20px 20px 50px -30px #FFC1D5;
+    
+    }
+
+    .about-us img {
+        width: 90px;
+        margin: auto;
+    }
+    
+    .about-us button {
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+        background: crimson;
+        margin: auto;
+        background: linear-gradient(to right, #FE5F8F, #FFC7D9);
+        color: #fff;
+    }
+    
+    .about-us p {
+        line-height: 18px;
+        font-size: 12px;
+    }
+    
+    .about-us h3 {
+        font-size: 18px;
+    }
+
+    @media (max-width:750px) {
+        #container {
+            display: flex;
+            flex-direction: column;
+        }
+    }
